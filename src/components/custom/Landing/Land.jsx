@@ -1,6 +1,7 @@
 import React from 'react'
 import './Land.css'
 import { Button } from '@/components/ui/button'
+import { Link } from 'react-router'
 
 const Land = () => {
   return (
@@ -14,7 +15,9 @@ const Land = () => {
         {/* this is for sub para */}
         <div className='my-12 '>
             <p className='text-xl text-zinc-300 mb-9'>Your personal trip planner and travel curator, creating custom itineraries tailored to your interests and budget.</p>
-            <Button className="Land_button " > Get Started !</Button>
+            <Link to={'/trip-form'}>
+            <Button className="Land_button "  > Get Started !</Button>
+            </Link>
         </div>
         
     </div>

@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center p-5 '>
         <div >
-           <h2 className='text-2xl font-bold'>Logo</h2>
+           <h2 className='text-2xl font-bold'>AdventureIQ</h2>
         </div>
         <div>
-            <Button>Sign in</Button>
+            <Button variant="link" size="lg" >Sign in</Button>
         </div>
     </div>
   )
