@@ -1,0 +1,9 @@
+.land_heading{
+    color: #F56551;
+}
+.Land_button:hover{
+  @apply bg-black text-zinc-50 ;
+  letter-spacing: 2px;
+  transition: 1s;
+  
+}
