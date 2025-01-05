@@ -2,6 +2,8 @@ import { Budget, traver_options } from '@/constants/Option';
 import { Input } from '../components/ui/input'
 import React, { useState } from 'react'
 import { Button } from '@/components/ui/button';
+import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
+
 
 
 
@@ -20,7 +22,7 @@ const Tripform = () => {
 
         <div className='mt-20'>
         <h2 className='text-2xl font-semibold text-balance'>What is destination of choice?</h2>
-        <Input type='text' className='bg-neutral-800 text-white mt-4' value={Place} onChange={(e)=>{setPlace(e.target.value);}} placeholder="Enter the  Destination that you want to visit " />
+        <GooglePlacesAutocomplete onChange={(e)=>{setPlace(e); console.log(e)  }} apiKey={'AIzaSyB2t4hOvy4D0fX0nb8T_By3xp4ibdkjWTQ'} />
         </div>
 
         <div className='mt-20'>

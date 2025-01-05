@@ -5,9 +5,7 @@ import Land from './components/custom/Landing/Land'
 
 const App = () => {
   return (
-    <> 
   <Land/>
-    </>
   )
 }
 

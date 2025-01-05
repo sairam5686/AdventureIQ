@@ -26,7 +26,7 @@ export const traver_options =[
     ,{
         id:2,
         title:'A Couple',
-        desc:'Two traveler with love',
+        desc:'For two traveler with love',
         icon:'💕'
     },
     {
